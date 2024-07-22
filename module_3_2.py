@@ -14,11 +14,11 @@ def send_email(message, recipient, sender='university.help@gmail.com'):
         print('НЕСТАНДАРТНЫЙ ОТПРАВИТЕЛЬ! Письмо отправлено с адреса', sender, 'на адрес', recipient)
     return recipient, sender
 
-print(send_email('Это сообщение для проверки связи', 'vasyok1337@gmail.com'))
+print(send_email('Это сообщение для проверки связи', 'vasyok1337gmail.co'))
 print(send_email('Вы видите это сообщение как лучший студент курса!', 'urban.fan@mail.ru', sender='urban.info@gmail.com'))
 print(send_email('Пожалуйста, исправьте задание', 'urban.student@mail.ru', sender='urban.teacher@mail.uk'))
 print(send_email('Напоминаю самому себе о вебинаре', 'urban.teacher@mail.ru', sender='urban.teacher@mail.ru'))
 
 
-#if not '@' in recipient or recipient.endswith('.com') or recipient.endswith('.ru') or recipient.endswith('.net') or not '@' in sender or sender.endswith('.com') or sender.endswith('.ru') or sender.endswith('.net'):
+
 
